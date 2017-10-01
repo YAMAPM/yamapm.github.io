@@ -179,7 +179,25 @@ Qu...">
       
     </div>
   </div>
-
+  <div id="comment"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<style>
+      .gitment-root-container{
+		margin: 19px 19px;
+	  }
+	</style>
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+	var gitment = new Gitment({
+	  owner: 'yamapm',
+	  repo: 'yamapm.github.io',
+	  oauth: {
+		client_id: 'c54cf903bb31dcdedc51',
+		client_secret: '149ee523c1dc98231c0e437701744933a6637def',
+	  },
+	})
+	gitment.render('comment')
+	</script>
   <div id="bottom-outer">
     <div id="bottom-inner">
       Site by John Doe using
