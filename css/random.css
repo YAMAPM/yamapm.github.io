@@ -291,11 +291,12 @@ ul.category-list li a:hover {
 }
 #pagination a {
   padding: 5px;
-  background-color: #eee;
+  font-size: 14px;
+/*background-color: #EEE;*/
   line-height: 28px;
 }
 #pagination a:hover {
-  background-color: #ddd;
+/*background-color: #DDD;*/
   color: #1f3a93;
   text-decoration: none;
 }
@@ -534,7 +535,7 @@ article img {
 }
 .random-toc-area {
   position: fixed;
-  width: 200px;
+/*width: 200px;*/
   right: 0px;
   top: 0px;
   display: block;
