@@ -460,6 +460,7 @@ article img {
   width: 100%;
   z-index: 2;
   pointer-events: none;
+  display: none;
 }
 .side-navigate .item {
   display: table-cell;
